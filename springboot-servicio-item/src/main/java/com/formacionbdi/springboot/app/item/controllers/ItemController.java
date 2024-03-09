@@ -33,6 +33,7 @@ public class ItemController {
 	
 	private final Logger logger = LoggerFactory.getLogger(ItemController.class);
 	
+	
 	@Value("${configuracion.texto}")
 	private String texto;
 	
