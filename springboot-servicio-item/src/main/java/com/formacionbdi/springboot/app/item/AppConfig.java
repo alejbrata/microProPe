@@ -13,6 +13,7 @@ import io.github.resilience4j.circuitbreaker.CircuitBreakerConfig;
 import io.github.resilience4j.timelimiter.TimeLimiterConfig;
 
 @Configuration
+
 public class AppConfig {
 
 	@Bean("clienteRest")

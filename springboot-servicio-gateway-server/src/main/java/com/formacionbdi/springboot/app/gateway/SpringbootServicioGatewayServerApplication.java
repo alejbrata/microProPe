@@ -6,7 +6,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient;
 
 @EnableDiscoveryClient
-@LoadBalancerClient(name = "servicio-gateway-server")
 @SpringBootApplication
 public class SpringbootServicioGatewayServerApplication {
 
